@@ -1,7 +1,9 @@
 ## the add function here for john
-
+def add(x, y):
+    return x + y
 ## the sub function here for john
-
+def sub(x, y):
+    return (x - y)
 ## the mul function here for merhwa
 
 ## the div function here for merhwa
@@ -11,7 +13,7 @@ def main():
     while run:
         n1 = int(input("select the first number you want to use: "))
         n2 = int(input("select the second number you want to use: "))
-        op = input("Select the operator you want")
+        op = input("Select the operator you want: ")
 
         if op == "+":
             result = add(n1, n2)
@@ -29,3 +31,5 @@ def main():
             print("Try again but select a correct operator")
 
     print(result)
+
+main()
