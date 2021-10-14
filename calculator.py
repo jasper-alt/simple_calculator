@@ -10,9 +10,7 @@ def mul(x , y):
     return x * y
 def john(x, y ):
     return x * y - x
-## the mul function here for merhwa
-def mul(x,y):
-    return x  * y
+    
 ## the div function here for merhwa
 def mer(x,y):
     return mul(x,y)*x
