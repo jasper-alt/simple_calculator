@@ -14,8 +14,6 @@ def john(x, y ):
 def mul(x,y):
     return x  * y
 ## the div function here for merhwa
-def div(x,y):
-    return x / y
 def mer(x,y):
     return mul(x,y)*x
 def main():
