@@ -5,9 +5,11 @@ def add(x, y):
 def sub(x, y):
     return (x - y)
 ## the mul function here for merhwa
-
+def mul2(x,y):
+    return x  * y
 ## the div function here for merhwa
-
+def div(x,y):
+    return x / y
 def main():
     run = True
     while run:
